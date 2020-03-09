@@ -1,0 +1,26 @@
+{
+  "realm" : "Scheduler_Realm",
+  "users" : [ {
+    "id" : "7f3d6fbc-7238-478f-84c5-e87107685809",
+    "createdTimestamp" : 1579562585305,
+    "username" : "tester0",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "credentials" : [ {
+      "id" : "053daefc-3521-4e58-b6d5-fc9e0edc8ecd",
+      "type" : "password",
+      "createdDate" : 1579562794964,
+      "secretData" : "{\"value\":\"Rn9zswDuj/p1hsmRQK9Vw7klRSa/4neaaA4FZgKe1n6Mf99DbJeAgibad7wKrDRh31Q7U5JfWdh0ha1PgL4P+g==\",\"salt\":\"2U0FkldgdnU+PxhmTc70wg==\"}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\"}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "offline_access", "uma_authorization" ],
+    "clientRoles" : {
+      "account" : [ "manage-account", "view-profile" ]
+    },
+    "notBefore" : 1579565268,
+    "groups" : [ ]
+  } ]
+}
